@@ -10,7 +10,7 @@ This problem seems very trivial, and it’s actually something classical compute
 
 The way a classical algorithm would go about approaching this problem, is by going through a series of AND operations, to find our secret number.
 So, using the number 1001, the classical approach will make its first “guess” as to what the number might be. It’s first guess is always going to be leading zeros, followed by a 1.
-So in our case, it’s first guess is going to be 0001. Now the algorithm is going to query the oracle, and use an AND comparison to see if there’s a 1 in the same spot.
+So, in our case, it’s first guess is going to be 0001. Now the algorithm is going to query the oracle, and use an AND comparison to see if there’s a 1 in the same spot.
 Comparing these two numbers:
 1001
 0001
