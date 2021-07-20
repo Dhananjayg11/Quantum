@@ -32,7 +32,7 @@ Then we just plot the histogram and can see the results.
 Similarly we have applied bernstein-vazirani using cirq on d'wave.
 
 
-So, in the project we are comparing time complexities of the Bernstien-Vazirani algorithm by running the same on multiple quantum computers which are available to access for developers.
+So, in this project we are comparing time complexities of the Bernstien-Vazirani algorithm by running the same on multiple quantum computers which are available to access for developers.
 The Bernstein-Vazirani algorithm deals with finding secret number.
 While running it on classical computers our finding states that time complexity was O(n).
 Similarly we accessed multiple quantum computers (IBM and DWave) which are available to use, our finding states that Bernstein-Vazirani(BV) algorithm take a constant time (say O(1)) irrespective
