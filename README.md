@@ -25,7 +25,7 @@ Quantum computers can take this problem, and find the secret number with just on
 
 Using IBM’s Qiskit, I implemented this algorithm, along with circuit visualizations with a step by step process.
 
-First, we create a quantum circuit for as many qubits or bits we want by taking one extra qubit to fulfill the need of algorithm.Then we apply Hadamard Gate to all the qubits and apply bit flip gate to the last qubit.Then we enumerate for qubits those are ones and apply controlled not gate to them.Then we again apply Hadamard gate to all qubits to make them out of superposition.At last we measure our circuit by using measure() function and then draw our circuit.
+First, we create a quantum circuit for as many qubits or bits we want, by taking one extra qubit to fulfill the need of algorithm.Then we apply Hadamard Gate to all the qubits and apply bit flip gate to the last qubit.Then we enumerate for qubits those are ones and apply controlled not gate to them.Then we again apply Hadamard gate to all qubits to make them out of superposition.At last we measure our circuit by using measure() function and then draw our circuit.
 Then we take our simulator from Aer.get_backend from "qasm_simulator".Then we execute the result by importing histogram from qiskit visualization library.
 Then we just plot the histogram and can see the results.
 
@@ -35,5 +35,5 @@ Similarly we have applied bernstein-vazirani using cirq on d'wave.
 So, in the project we are comparing time complexities of the Bernstien-Vazirani algorithm by running the same on multiple quantum computers which are available to access for developers.
 The Bernstein-Vazirani algorithm deals with finding secret number.
 While running it on classical computers our finding states that time complexity was O(n).
-Similarly we accessed multiple quantum computers (IBM and DWave) which are available to use, our finding states that Bernstein-Vazirani(BV) algorithm take a constant time(say O(1)) irrespective
+Similarly we accessed multiple quantum computers (IBM and DWave) which are available to use, our finding states that Bernstein-Vazirani(BV) algorithm take a constant time (say O(1)) irrespective
 of the length of the secret number. Hence complex algorithms like BV take constant time which demonstrate the power of quantum computers. 
