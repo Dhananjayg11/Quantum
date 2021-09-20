@@ -2,7 +2,7 @@ To demonstrate how much power quantum computers can have over regular computers,
 
 # Secret number:
 
-The == Bernstein-Vazirani Algorithm == specializes in finding a secret number.
+The <b> Bernstein-Vazirani Algorithm <b> specializes in finding a secret number.
 So, let's say we put a secret number in a box, say it’s 1001 (the number 9 in binary), how many steps will it take us to find that secret number?
 This problem seems very trivial, and it’s actually something classical computers can already do.
 
