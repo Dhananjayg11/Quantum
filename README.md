@@ -1,6 +1,6 @@
 To demonstrate how much power quantum computers can have over regular computers, we’re going to be looking at an algorithm which has been implemented called the Bernstein-Vazirani Algorithm.
 
-#Secret number:
+# Secret number:
 
 The Bernstein-Vazirani Algorithm specializes in finding a secret number.
 So, let's say we put a secret number in a box, say it’s 1001 (the number 9 in binary), how many steps will it take us to find that secret number?
