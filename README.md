@@ -6,7 +6,7 @@ The Bernstein-Vazirani Algorithm specializes in finding a secret number.
 So, let's say we put a secret number in a box, say it’s 1001 (the number 9 in binary), how many steps will it take us to find that secret number?
 This problem seems very trivial, and it’s actually something classical computers can already do.
 
-#The Classical approach:
+# The Classical approach:
 
 The way a classical algorithm would go about approaching this problem, is by going through a series of AND operations, to find our secret number.
 So, using the number 1001, the classical approach will make its first “guess” as to what the number might be. It’s first guess is always going to be leading zeros, followed by a 1.
@@ -19,7 +19,7 @@ This series of guesses is repeated for every bit in the secret bitstring. So, ou
 Now this seems pretty efficient; better than just guessing and checking. But the thing is this algorithm will have to perform as many steps as there are bits in our secret bitstring. So, if we had a bitstring with 1 million bits, we would have to query the black box 1 million times!
 This is where quantum computers can come to the rescue.
 
-#The Quantum approach:
+# The Quantum approach:
 
 Quantum computers can take this problem, and find the secret number with just one step.
 
